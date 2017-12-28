@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewsFeed</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="TopStoriesFragment">TopStories</string>
+    <string name="TechnologyFragment">Technology</string>
+    <string name="PoliticsFragment">Politics</string>
+    <string name="BusinessFragment">Business</string>
+    <string name="SportsFragment">Sports</string>
+
+</resources>
