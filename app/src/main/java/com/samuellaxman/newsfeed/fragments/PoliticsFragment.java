@@ -159,7 +159,7 @@ public class PoliticsFragment extends Fragment {
                 } catch (JSONException e) {
 
                     e.printStackTrace();
-                }
+          nm,      }
             }
         }, new Response.ErrorListener() {
             @Override
