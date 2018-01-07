@@ -1,4 +1,4 @@
-package com.samuellaxman.newsfeed;
+package com.samuellaxman.newsfeed.fragments;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -9,14 +9,15 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Created by USER on 12/27/2017.
  */
 
-public class NewsCategoryAdapter extends FragmentPagerAdapter {
+public class FragmentManagerAdapter extends FragmentPagerAdapter  {
 
     //mContext is the context of the app
-//    private Context mContext;
+    private Context mContext;
 
 
-    public NewsCategoryAdapter(FragmentManager fragmentManager) {
+    public FragmentManagerAdapter(FragmentManager fragmentManager, Context context) {
         super(fragmentManager);
+        mContext = context;
     }
 
     @Override
@@ -33,6 +34,7 @@ public class NewsCategoryAdapter extends FragmentPagerAdapter {
             return new SportsFragment();
         }
     }
+
     @Override
     public int getCount() {
         return 5;
@@ -48,11 +50,13 @@ public class NewsCategoryAdapter extends FragmentPagerAdapter {
             return "Politics";
         } else if (position == 3) {
             return "Business";
-        } else  if (position == 4){
+        } else if (position == 4) {
             return "Sports";
-        }else {
+        } else {
             return null;
         }
 
     }
+
+
 }

@@ -9,23 +9,24 @@
     android:orientation="vertical"
     tools:context="com.samuellaxman.newsfeed.MainActivity">
 
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:theme="@style/TabLayout_Theme"
+        app:tabIndicatorColor="@color/colorPrimary"
         app:tabMode="scrollable"
+        app:tabTextColor="@android:color/black"
         />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <fragment
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/sportfragment"/>
-        </android.support.v4.view.ViewPager>
+
+
+    </android.support.v4.view.ViewPager>
 
 
 </LinearLayout>

@@ -9,5 +9,8 @@
     <string name="PoliticsFragment">Politics</string>
     <string name="BusinessFragment">Business</string>
     <string name="SportsFragment">Sports</string>
+    <string name="recycler">Recycler</string>
+    <string name="topic">TOPIC</string>
+    <string name="source">source</string>
 
 </resources>
