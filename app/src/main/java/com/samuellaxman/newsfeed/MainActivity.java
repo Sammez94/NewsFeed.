@@ -20,17 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String URL_DATAwsj =
             "https://newsapi.org/v2/top-headlines?sources=the-wall-street-journal&apiKey=2c62bf6a65e74f0b8c06ba6dc09b0c40";
 
-    private static final String KEY_AUTHOR = "author";
-    private static final String KEY_TITLE = "title";
-    private static final String KEY_SOURCE = "source";
-    private static final String KEY_DESCRIPTION = "description";
-    private static final String KEY_IMAGE = "image";
-    private static final String KEY_URL = "url";
-
-
-    private List<DataModel> newsLists;
-    ListViewAdapter listViewAdapter;
-    ListView listView;
 
 
     @Override

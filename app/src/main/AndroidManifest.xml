@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".StoryActivity">
         </activity>
+        <activity android:name=".fragments.MusicFragment">
+        </activity>
     </application>
 
 </manifest>
